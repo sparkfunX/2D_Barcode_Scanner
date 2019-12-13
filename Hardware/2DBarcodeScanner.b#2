@@ -18,34 +18,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -255,14 +255,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
-</package>
-<package name="DUMMY">
-<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
-&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
-
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
-&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
 </packages>
 </library>
@@ -3920,10 +3912,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$19" library="buzzard_labels" package="SERIAL6" value="" x="7.874" y="13.462" smashed="yes" rot="R270"/>
 <element name="U$20" library="SparkX" package="SPARKX-MEDIUM" value="" x="17.78" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$21" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="" x="32.131" y="1.524" smashed="yes" rot="MR0"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-1.27" y="-1.27" smashed="yes">
-<attribute name="DESIGNER" value="Nobody" x="-1.27" y="-1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VERSION" value="v01" x="-1.27" y="-1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -3968,6 +3956,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="32.921" y1="23.65" x2="32.893" y2="23.622" width="0.1778" layer="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="S2" pad="1"/>
+<wire x1="32.893" y1="23.622" x2="31.59" y2="30.45" width="0" layer="19" extent="1-1"/>
+<wire x1="31.59" y1="20.35" x2="32.893" y2="23.622" width="0" layer="19" extent="1-1"/>
+<wire x1="36.51" y1="15.51" x2="31.59" y2="20.35" width="0" layer="19" extent="1-1"/>
+<wire x1="36.41" y1="13.716" x2="36.51" y2="15.51" width="0" layer="19" extent="1-1"/>
+<wire x1="32.258" y1="9.74" x2="36.41" y2="13.716" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="21.17" x2="31.59" y2="20.35" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6201" y1="20.32" x2="24.13" y2="21.17" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="21.17" x2="21.6201" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="17.52" y1="15.875" x2="16.51" y2="21.17" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="13.55" x2="17.52" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="11.176" y1="13.501" x2="12.7" y2="13.55" width="0" layer="19" extent="1-1"/>
+<wire x1="9.652" y1="13.55" x2="11.176" y2="13.501" width="0" layer="19" extent="1-1"/>
+<wire x1="8.382" y1="12.319" x2="9.652" y2="13.55" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="13.385" x2="8.382" y2="12.319" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="17.78" x2="6.01" y2="13.385" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="17.78" x2="3.81" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="22.175" x2="3.81" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="19.47" x2="6.01" y2="22.175" width="0" layer="19" extent="1-1"/>
+<wire x1="9.779" y1="6.643" x2="8.382" y2="12.319" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="6.935" x2="9.779" y2="6.643" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="28.625" x2="6.01" y2="22.175" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="30.949" x2="6.01" y2="28.625" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="1.27" x2="9.779" y2="6.643" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="1.69" x2="15.24" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="0.762" x2="21.59" y2="1.69" width="0" layer="19" extent="1-1"/>
+<wire x1="34.532" y1="1.905" x2="29.464" y2="0.762" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V" class="1">
 <contactref element="U1" pad="5"/>

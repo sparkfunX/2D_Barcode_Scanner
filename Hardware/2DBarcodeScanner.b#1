@@ -3968,6 +3968,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="32.921" y1="23.65" x2="32.893" y2="23.622" width="0.1778" layer="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="S2" pad="1"/>
+<wire x1="32.893" y1="23.622" x2="31.59" y2="30.45" width="0" layer="19" extent="1-1"/>
+<wire x1="31.59" y1="20.35" x2="32.893" y2="23.622" width="0" layer="19" extent="1-1"/>
+<wire x1="36.51" y1="15.51" x2="31.59" y2="20.35" width="0" layer="19" extent="1-1"/>
+<wire x1="36.41" y1="13.716" x2="36.51" y2="15.51" width="0" layer="19" extent="1-1"/>
+<wire x1="32.258" y1="9.74" x2="36.41" y2="13.716" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="21.17" x2="31.59" y2="20.35" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6201" y1="20.32" x2="24.13" y2="21.17" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="21.17" x2="21.6201" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="17.52" y1="15.875" x2="16.51" y2="21.17" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="13.55" x2="17.52" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="11.176" y1="13.501" x2="12.7" y2="13.55" width="0" layer="19" extent="1-1"/>
+<wire x1="9.652" y1="13.55" x2="11.176" y2="13.501" width="0" layer="19" extent="1-1"/>
+<wire x1="8.382" y1="12.319" x2="9.652" y2="13.55" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="13.385" x2="8.382" y2="12.319" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="17.78" x2="6.01" y2="13.385" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="17.78" x2="3.81" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="22.175" x2="3.81" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="19.47" x2="6.01" y2="22.175" width="0" layer="19" extent="1-1"/>
+<wire x1="9.779" y1="6.643" x2="8.382" y2="12.319" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="6.935" x2="9.779" y2="6.643" width="0" layer="19" extent="1-1"/>
+<wire x1="6.01" y1="28.625" x2="6.01" y2="22.175" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="30.949" x2="6.01" y2="28.625" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="1.27" x2="9.779" y2="6.643" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="1.69" x2="15.24" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="0.762" x2="21.59" y2="1.69" width="0" layer="19" extent="1-1"/>
+<wire x1="34.532" y1="1.905" x2="29.464" y2="0.762" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V" class="1">
 <contactref element="U1" pad="5"/>

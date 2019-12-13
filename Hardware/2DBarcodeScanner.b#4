@@ -256,14 +256,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="DUMMY">
-<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
-&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
-
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
-&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Connectors">
@@ -311,32 +303,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5" y1="-4.1" x2="-5" y2="-2" width="0.0762" layer="51"/>
 <wire x1="-5" y1="-2" x2="5" y2="-2" width="0.0762" layer="51"/>
 <wire x1="5" y1="-2" x2="5" y2="-4.1" width="0.0762" layer="51"/>
-<dimension x1="-2.75" y1="0" x2="-2.25" y2="0" x3="-2.5" y3="-1.4" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="2.9" y1="0.1" x2="2.6" y2="0.1" x3="2.75" y3="-1.35" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="2.85" y1="0.5" x2="2.85" y2="-0.5" x3="3.75" y3="0" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="-6.05" y1="-3.35" x2="-2.75" y2="-3.35" x3="-4.4" y3="1.2" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="-4.05" y1="-3.35" x2="-2.75" y2="-3.35" x3="-3.4" y3="0.75" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="-4.05" y1="-3.35" x2="-6.05" y2="-3.35" x3="-5.05" y3="0.75" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="-6.05" y1="-3.35" x2="-6.05" y2="-2.05" x3="-7.3" y3="-2.7" textsize="0.254" textratio="1" layer="47" width="0.01"/>
-<dimension x1="-5" y1="-0.5" x2="-7.3" y2="-2.05" x3="-7.3" y3="-1.275" textsize="0.254" textratio="1" layer="47" dtype="vertical" width="0.01"/>
+<dimension x1="-2.75" y1="0" x2="-2.25" y2="0" x3="-2.5" y3="-1.4" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="2.9" y1="0.1" x2="2.6" y2="0.1" x3="2.75" y3="-1.35" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="2.85" y1="0.5" x2="2.85" y2="-0.5" x3="3.75" y3="0" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="-6.05" y1="-3.35" x2="-2.75" y2="-3.35" x3="-4.4" y3="1.2" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="-4.05" y1="-3.35" x2="-2.75" y2="-3.35" x3="-3.4" y3="0.75" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="-4.05" y1="-3.35" x2="-6.05" y2="-3.35" x3="-5.05" y3="0.75" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="-6.05" y1="-3.35" x2="-6.05" y2="-2.05" x3="-7.3" y3="-2.7" textsize="0.254" textratio="1" layer="51" width="0.01"/>
+<dimension x1="-5" y1="-0.5" x2="-7.3" y2="-2.05" x3="-7.3" y3="-1.275" textsize="0.254" textratio="1" layer="51" dtype="vertical" width="0.01"/>
 <text x="-2" y="-5" size="0.254" layer="51" ratio="1">MOLEX 5051101292</text>
-<wire x1="-5.461" y1="-2.032" x2="-5.461" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-5.461" y1="-0.127" x2="-4.953" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-0.127" x2="-4.953" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-0.508" x2="-3.048" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="3.048" y1="-0.508" x2="4.953" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="4.953" y1="-0.508" x2="4.953" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="4.953" y1="-0.127" x2="5.461" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="5.461" y1="-0.127" x2="5.461" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-5.461" y1="-3.556" x2="-5.461" y2="-4.191" width="0.127" layer="21"/>
-<wire x1="-5.461" y1="-4.191" x2="-5.08" y2="-4.191" width="0.127" layer="21"/>
-<wire x1="5.461" y1="-3.556" x2="5.461" y2="-4.191" width="0.127" layer="21"/>
-<wire x1="5.461" y1="-4.191" x2="5.08" y2="-4.191" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.556" x2="5.08" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-5.461" x2="-5.08" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-5.461" x2="-5.08" y2="-4.191" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-4.191" x2="-5.08" y2="-3.556" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="-2.032" x2="3.937" y2="-2.032" width="0.127" layer="21"/>
 </package>
 <package name="USB-C-16P">
 <smd name="B6" x="0.75" y="-0.34" dx="0.3" dy="1" layer="1"/>
@@ -619,22 +594,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6" y1="-10.5" x2="-6" y2="-3" width="0.1524" layer="51"/>
 <wire x1="-6" y1="-3" x2="-8.4" y2="-3" width="0.1524" layer="51"/>
 <text x="-5" y="-10" size="0.6096" layer="51">connector side</text>
-<wire x1="6.1" y1="0" x2="8" y2="0" width="0.1524" layer="51"/>
-<wire x1="8" y1="0" x2="7.4" y2="0.6" width="0.1524" layer="51"/>
-<wire x1="8" y1="0" x2="7.4" y2="-0.6" width="0.1524" layer="51"/>
-<wire x1="-8.4" y1="-10.5" x2="-8.4" y2="-3" width="0.1524" layer="21"/>
-<wire x1="-8.4" y1="-3" x2="-8.4" y2="10.5" width="0.1524" layer="21"/>
-<wire x1="-8.4" y1="10.5" x2="8.4" y2="10.5" width="0.1524" layer="21"/>
-<wire x1="8.4" y1="10.5" x2="8.4" y2="-10.5" width="0.1524" layer="21"/>
-<wire x1="8.4" y1="-10.5" x2="-6" y2="-10.5" width="0.1524" layer="21"/>
-<wire x1="-6" y1="-10.5" x2="-8.4" y2="-10.5" width="0.1524" layer="21"/>
-<wire x1="-8.4" y1="-3" x2="-6" y2="-3" width="0.1524" layer="21"/>
-<wire x1="-6" y1="-3" x2="-6" y2="-10.5" width="0.1524" layer="21"/>
-<wire x1="6" y1="0" x2="8" y2="0" width="0.1524" layer="21"/>
-<wire x1="8" y1="0" x2="7.4" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="7.4" y1="0.6" x2="7.4" y2="-0.6" width="0.1524" layer="21"/>
-<wire x1="7.4" y1="-0.6" x2="8" y2="0" width="0.1524" layer="21"/>
-<text x="4" y="6" size="1.016" layer="21" rot="SR270">Lens This Way</text>
+<wire x1="4" y1="0" x2="7" y2="0" width="0.1524" layer="51"/>
+<wire x1="7" y1="0" x2="6" y2="1" width="0.1524" layer="51"/>
+<wire x1="7" y1="0" x2="6" y2="-1" width="0.1524" layer="51"/>
 </package>
 <package name="STAND-OFF">
 <description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
@@ -3920,10 +3882,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$19" library="buzzard_labels" package="SERIAL6" value="" x="7.874" y="13.462" smashed="yes" rot="R270"/>
 <element name="U$20" library="SparkX" package="SPARKX-MEDIUM" value="" x="17.78" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$21" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="" x="32.131" y="1.524" smashed="yes" rot="MR0"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-1.27" y="-1.27" smashed="yes">
-<attribute name="DESIGNER" value="Nobody" x="-1.27" y="-1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VERSION" value="v01" x="-1.27" y="-1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
