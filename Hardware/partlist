@@ -1,0 +1,31 @@
+Partlist
+
+Exported from 2DBarcodeScanner.brd at 3/12/2020 12:09 AM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                                Package                        Library                    Position (inch)       Orientation
+
+C1       1.0uF                                0603                           SparkFun-Capacitors        (0.6 0.82)            R180
+C2       1.0uF                                0603                           SparkFun-Capacitors        (0.6 0.59)            R180
+C3       0.1uF                                0603                           SparkFun-Capacitors        (0.985 0.81)          R180
+D2       GREEN                                LED-0603                       SparkFun-LED               (0.89 0.12)           R180
+J1       BARCODE_ENGINE_CONN                  CONN_FPC_BOTTOM_12POS_.5MM_R/A SparkFun-Connectors        (0.915 0.65)          R270
+J2                                            USB-C-16P                      SparkFun-Connectors        (0.25 0.45)           R270
+J4                                            1X06_NO_SILK                   SparkFun-Connectors        (0.75 0.05)           R180
+JP1      JUMPER-SMT_2_NC_TRACE_SILK           SMT-JUMPER_2_NC_TRACE_SILK     SparkFun-Jumpers           (0.89 0.205)          MR0
+LS1      BUZZER-SMD                           BUZZER-CCV                     SparkFun-Electromechanical (1.49 0.25)           R180
+Q1       600mA/40V                            SOT23-3                        SparkFun-DiscreteSemi      (1.44 0.75)           R270
+Q2       600mA/40V                            SOT23-3                        SparkFun-DiscreteSemi      (1.2 0.75)            R270
+R1       470                                  0603                           SparkFun-Resistors         (0.89 0.05)           R0
+R2       5.1k                                 0603                           SparkFun-Resistors         (0.37 0.35)           R90
+R3       5.1k                                 0603                           SparkFun-Resistors         (0.37 0.55)           R270
+R7       10                                   0603                           SparkFun-Resistors         (1.33 0.615)          R90
+R8       10k                                  0603                           SparkFun-Resistors         (1.33 0.75)           R90
+R9       1k                                   0603                           SparkFun-Resistors         (1.365 0.845)         R0
+R10      10k                                  0603                           SparkFun-Resistors         (1.135 0.845)         R180
+R11      1k                                   0603                           SparkFun-Resistors         (1.1 0.75)            R90
+S2       MOMENTARY-SWITCH-SPST-SMD-5.2MM-TALL TACTILE_SWITCH_SMD_5.2MM       SparkFun-Switches          (1.095 0.445)         R270
+U1       3.3V                                 SOT23-5                        SparkFun-IC-Power          (0.6 0.705)           R180

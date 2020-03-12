@@ -3459,26 +3459,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-1.27" y="0" radius="1.02390625" width="0" layer="30"/>
 <circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
 </package>
-<package name="SOD-323">
-<description>SOD-323 (Small Outline Diode)</description>
-<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
-<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
-</package>
-<package name="PANASONIC_SMINI2-F5-B">
-<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
-<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
-<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
-<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="NPN">
@@ -3500,25 +3480,6 @@ Allows current flow when high potential at base.</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-<symbol name="DIODE-ZENER">
-<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
-Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
-<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-1.27" y="1.27"/>
-<vertex x="1.27" y="0"/>
-<vertex x="-1.27" y="-1.27"/>
-</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -3609,75 +3570,6 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-08447"/>
 <attribute name="VALUE" value="200mA/40V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DIODE-ZENER" prefix="D">
-<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
-&lt;p&gt;A Zener diode allows current to flow from its anode to its cathode like a normal semiconductor diode, but it also permits current to flow in the reverse direction when its "Zener voltage" is reached. - WIkipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-MM3Z3V3T1G" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-11284"/>
-<attribute name="VALUE" value="3.3V"/>
-</technology>
-</technologies>
-</device>
-<device name="-MMSZ5232BS" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-12442"/>
-<attribute name="VALUE" value="5.6V"/>
-</technology>
-</technologies>
-</device>
-<device name="-DZ2J150M0L" package="PANASONIC_SMINI2-F5-B">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-12989"/>
-<attribute name="VALUE" value="15V"/>
-</technology>
-</technologies>
-</device>
-<device name="-BZT52C3V6S" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08199" constant="no"/>
-<attribute name="VALUE" value="3.6V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-MMBZ5233BLT1G" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-14123"/>
-<attribute name="VALUE" value="6V"/>
 </technology>
 </technologies>
 </device>
@@ -4913,7 +4805,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R3" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="600mA/40V"/>
 <part name="LS1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="-SMD"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-MM3Z3V3T1G" value="3.3V"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="10OHM" device="-0603-1/10W-5%" value="10"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -5026,10 +4917,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LS1" gate="G$1" x="121.92" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="121.92" y="88.646" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="122.174" y="76.2" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="D1" gate="G$1" x="109.22" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.188" y="88.9" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="111.252" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R7" gate="G$1" x="116.84" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.316" y="91.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -5204,13 +5091,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="109.22" y1="93.98" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
-<junction x="116.84" y="99.06"/>
+<wire x1="116.84" y1="96.52" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -5344,10 +5226,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LS1" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<junction x="116.84" y="81.28"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="109.22" y1="88.9" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
