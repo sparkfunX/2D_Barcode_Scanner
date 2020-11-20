@@ -2,6 +2,7 @@
 ========================================
 
 ![2D Barcode Scanner Breakout](https://cdn.sparkfun.com/assets/parts/1/5/2/7/6/16441-2D_Barcode_Scanner_Breakout-01.jpg)
+
 [*2D Barcode Scanner Breakout (SPX-16441)*](https://www.sparkfun.com/products/16441)
 
 The DYScan DE2120 is one of the coolest little barcode scanners we've ever seen. This tiny "scan engine" will read 20 different barcode symbologies — both 1D and 2D! This is achieved by using a camera coupled with on-board image processing to identify and decode everything from UPC codes to QR codes. The module also features two LEDs: one for illumination and one to project the red line that you're used to seeing from laser-based scanners. 
